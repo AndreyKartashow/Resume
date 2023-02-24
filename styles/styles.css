@@ -1,0 +1,132 @@
+/**{
+    outline: 1px red solid
+}
+*/
+/* Стили для фона */
+body {
+    background-image: url("/Resume/image/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 950px;
+    max-height: 950px;
+    min-width: 500px;
+    display: flex;
+}
+
+/* Стили для основного блока */
+.overlay {
+
+    background-color: rgba(226, 226, 226, 0.95);
+    margin: 20px auto ;
+    
+    padding: 20px;
+    width: 75%;
+    max-width: 800px;
+
+    border: 3px solid;
+    border-color:black;
+    border-radius: 2%;
+
+    box-shadow: 15px 15px 15px rgb(132, 134, 134);
+
+    color: rgba(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+}
+
+.card {
+    margin-bottom: 15px;
+    display: block;
+
+}
+
+/* Стили для контента */
+.content {
+    height: auto;
+    border: 1px solid;
+    border-color:black;
+    border-radius: 3%;
+    
+    
+}
+
+/* Стили для титульного блока */
+.head {
+    display: flex;
+    min-height: 250px;
+    height: 30%;
+    width: 100%;
+    align-items: stretch;
+}
+
+/* Стили для подблока фото */
+.photo {
+    width: 35%;
+    max-width: 200px;
+    min-width: 150px;
+    min-height: 100px;
+    flex-grow: 1;
+    
+}
+/* Стили для фотки */
+.image {
+    width: 100% ;
+    height: 100%;
+    min-height: 225px;
+}
+
+/* Стили для подблока базовые данные */
+.basik_data {
+    width: 65%;
+    margin: auto;
+    flex-grow: 1;       
+}
+
+.data {
+    display: flex;
+    border-bottom: 1px solid;
+    margin-left: 10px;
+}
+
+/* Стили для подблока параметры в базовом тексте */
+.param {
+    width: 35%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Стили для подблока текст в базовом тексте */
+.text {
+    width: 65%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Стили для парагрофов */
+p {
+    margin: 3px;     
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar li {
+    margin: 0 20px;
+    
+}
+
+.navbar li a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
