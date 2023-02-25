@@ -4,7 +4,7 @@
 */
 /* Стили для фона */
 body {
-    background-image: url("/Resume/image/background.jpg");
+    background-image: url("/image/background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -114,7 +114,7 @@ p {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin: 0;
+    margin: 40px 0 0;
     padding: 0;
     
 }
@@ -124,9 +124,35 @@ p {
     
 }
 
-.navbar li a {
+.navbar li button {
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
-    
+    font-weight: 600;
+}
+
+.nav-button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-button:hover {
+    opacity: 0.6;
+}
+
+
+.content-container{
+    display: none;
+}
+
+.nav-button.selected {
+    text-decoration: underline;
+}
+
+.content-container.selected {
+    display: block;
 }

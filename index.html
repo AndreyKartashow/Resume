@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Resume</title>
-        <link rel="stylesheet" href="/Resume/styles/normalize.css">
-        <link rel="stylesheet" href="/Resume/styles/styles.css">
+        <link rel="stylesheet" href="/styles/normalize.css">
+        <link rel="stylesheet" href="/styles/styles.css">
     </head>
 
     <body>
@@ -14,8 +14,8 @@
             <div class="card"> 
                 <div class="head">
                     <div class="photo">
-                        <img class="image" src="/Resume/image/photo.jpg" 
-                        alt="Здесь должно быть фото" >
+                        <img class="image" src="/image/photo.jpg" 
+                        alt="Аватар профиля" >
                     </div>
                     <div class="basik_data">
                         <div class="data">
@@ -91,42 +91,36 @@
             <div class="card">
                 <div class="link">
                     <ul class="navbar">
-                        <li><a href="#">О себе</a></li>
-                        <li><a href="#">Строительство</a></li>
-                        <li><a href="#">IT</a></li>
-                        <li><a href="#">Нефтепереработка</a></li>
+                        <li class="navbar"><button class="nav-button nav-button-o-sebe selected">О себе</button></li>
+                        <li class="navbar"><button class="nav-button nav-button-stroit">Строительство</button></li>
+                        <li class="navbar"><button class="nav-button nav-button-it">IT</button></li>
+                        <li class="navbar"><button class="nav-button nav-button-neft">Нефтепереработка</button></li>
                     </ul>
                 </div>
             </div>
           
-            <div class="card">
                 <div class="content">
-                    <h1>Заголовок</h1>
-                    <p>Текст контента</p> 
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="content">
-                    <h1>Заголовок</h1>
-                    <p>Текст контента</p>  
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="content">
-                    <h1>Заголовок</h1>
-                    <p>Текст контента</p>     
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="content">
-                    <h1>Заголовок</h1>
-                    <p>Текст контента</p>  
-                </div>
-            </div>
+                    <div class="content-container content-container-o-sebe selected">
+                        <h1>О себе</h1>
+                        <p>Текст о себе</p>
+                    </div>
 
+                    <div class="content-container content-container-stroit content-container_disabled">
+                        <h1>Строительство</h1>
+                        <p>Текст о строительстве</p>
+                    </div>  
+
+                    <div class="content-container content-container-it content-container_disabled">
+                        <h1>IT</h1>
+                        <p>Текст IT</p>
+                    </div>  
+
+                    <div class="content-container content-container-neft content-container_disabled">
+                        <h1>Нефтепереработка</h1>
+                        <p>Текст Нефтепереработки</p>
+                    </div>       
+                </div>
         </article>
+        <script src="/index.js"></script>
     </body>
 </html>
