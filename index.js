@@ -13,7 +13,6 @@ const checkoutTabs = (item, index) => {
   item.addEventListener('click', () => {
     
     if (item.classList.contains('selected')) return
-    console.log(item)
   
     clearActiveClass(navList)
     clearActiveClass(contentList)
